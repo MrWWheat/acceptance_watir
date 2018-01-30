@@ -1,0 +1,43 @@
+env:
+  local:
+    nike:
+      topic_id_get_v2: 21
+      product_id_get_v2: 1
+      blog_id_get_v2: 16
+      discussion_id_get_v2: 22
+      product_id_get_v2: 1
+      member_id_get: t0YFBsWZUo5R9eV0xy6gkO
+      application_id: cfb5f380c0bb9f0fe0ee9a842b542f47322cef2bc9cedd7cb7966f1d18b15411
+      secret_id: 16947f2cfbdd86ccabfcc34aa2b1119312750fd2a23a742ca976954d0560efa7
+      review_id_get: zvwXRx23JSjYZtvyctVHCc
+      conversation_id_get: l2BjlHFVYoYaNz6vz66SgW
+      post_id_get: uPSTD6QI6fs5nJlsDBhmLy
+      network_id_get: nike
+      search_keyword: 1
+
+  stage:
+    apitest:
+      application_id: 95e33b06e3f1a205f0419612ef159f2954325820d4e3be96f69bf7a095c48f4a
+      secret_id: 1e007c16c46238973a3cb450adcf11954242031b4955699ff92c5b3266bb6160
+      network_id_get: apitest
+      topic_id_get: G1rbvhdtPG1aQIfsRxACNm
+      product_code_get: 2006139
+      product_id_get: Cdm6YtNLA4y5leF6KAS4cg
+      member_id_get: oV76ylo7ZNmX2YsKn14Xq0
+      normaluser_id_get: 3CdLvzCXugjlgEK4oUeaUI
+      blog_id_get: 3Q1OAv7d96C6aG9k2Oojof
+      search_keyword: a
+      topic_with_product_id_get: Cdm6YtNLA4y5leF6KAS4cg
+      topic_with_review_id_get: Dop7DC0XKdK9Yb77vrhFgl
+
+
+  integration:
+    nike:
+      application_id: d86b515fcd50619670689cb6e3f3e443e23fd85b1b063618130e2d92fdd7e147
+      secret_id: b42e5787ea84b75627717e0ef3631a8b20be383e022b1c37d9d9de9337d952f0
+      network_id_get: nike
+      topic_id_get: mLtPyOfxKcxBgr0XC1pDIj
+      product_id_get: UzKiQdyFgxP2iEWjZoVSUr
+      member_id_get: t0YFBsWZUo5R9eV0xy6gkO
+      blog_id_get: 3JdxsxvhBSfOVdBFfbMxTB
+      search_keyword: a

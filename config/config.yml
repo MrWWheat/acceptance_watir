@@ -1,0 +1,1680 @@
+# server config settings:
+config:
+  browser: "headless"
+  #browser: "firefox"
+  #instance: "local"
+  instance: "integration"
+  timeout: 18
+
+# server env config
+env:
+  local:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "http://nikelocal:3000"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin","registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein!", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin","registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein!", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        nf_network_admin: ["watirnfadmin@watir.com", "password", "watirnfadmin","nfAdmin Watir","registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_moderator: ["watirnfmod@watir.com", "password", "watirnfmod", "nfModerator Watir", "registered"]
+      timeout: 10
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "http://foodlocal:3000"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+  stage:
+    newsa:
+      base_url: "https://ch-candidate-system.mo.sap.corp"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      comm_template_name: "DemoSAWatirTest Template"
+      comm_template_domain: "https://template-ch-candidate-watirtest-demosa-default.mo.sap.corp" 
+      comm_template_subdomain: "watirtest-demosa-default"
+      users:
+        sa_demo_dev: ["j_demo_dev@sap.com", "letmein"]
+        sa_demo_sale: ["j_demo_sale@sap.com", "letmein"]
+        sa_prod_dev: ["j_prod_dev@sap.com", "siteadmin@2017"]
+        sa_prod_cs: ["j_prod_cs@sap.com", "siteadmin@2017"]
+        sa_prod_pv: ["j_prod_pv@sap.com", "siteadmin@2017"]
+
+    shoes-adidas:
+      network: "Adidas Community"
+      networkslug: "shoes-adidas"
+      base_url: "https://shoes-adidas.mo.sap.corp"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      hybris_url: "https://electronics-betaon.mo.sap.corp:9002/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["cm2admin1@test.com", "PlsLetMeIn1", "cm2admin1","Watir Admin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["cm2admin1@test.com", "PlsLetMeIn1", "cm2admin1","Watir Admin", "registered"]
+      timeout: 30
+      gated_community: true
+      
+    bags-adidas:
+      network: "Adidas Community"
+      networkslug: "bags-adidas"
+      base_url: "https://bags-adidas.mo.sap.corp"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      hybris_url: "https://electronics-62candidate.mo.sap.corp:9002/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["cm3admin1@test.com", "PlsLetMeIn1", "cm3admin1","Watir Admin", "registered"]
+
+      domain: "watir.com"
+      users:
+        network_admin: ["cm3admin1@test.com", "PlsLetMeIn1", "cm3admin1","Watir Admin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+      timeout: 30
+      gated_community: false
+
+    wcbtest:
+      network: "WCBTest Community"
+      networkslug: "wcbtest"
+      base_url: "https://ch-candidate-wcbtest.mo.sap.corp"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      beta_feature_enabled: ["fs_events"]
+      timeout: 30
+
+    betaon:
+      network: "Nike Community"
+      networkslug: "betaon"
+      base_url: "https://ch-candidate-betaon.mo.sap.corp"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      hybris_url: "https://electronics-betaon.mo.sap.corp:9002/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmoderator@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watir4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        regular_user7: ["watiruser7@watir.com", "password", "watir7", "Watir User7", "registered"]
+        regular_user8: ["watiruser8@watir.com", "password", "watir8", "Watir User8", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      timeout: 30
+      beta_feature_enabled: ["fs_events", "fs_ideas", "fs_topcontri"]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+    
+    betaon1:
+      network: "Betaon1 Community"
+      networkslug: "betaon1"
+      base_url: "https://ch-candidate-betaon1.mo.sap.corp"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      beta_feature_enabled: ["fs_events", "fs_ideas"]
+      timeout: 30
+    
+    betaon2:
+      network: "Betaon2 Community"
+      networkslug: "betaon2"
+      base_url: "https://ch-candidate-betaon2.mo.sap.corp"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      beta_feature_enabled: ["fs_events", "fs_ideas"]
+      timeout: 30
+
+    food:
+      network: "Food Network(For b2b test, don't delete)"
+      networkslug: "food"
+      base_url: "https://ch-candidate-food.mo.sap.corp"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      hybris_url: "https://electronics-b2c.mo.sap.corp:9002/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+        oauth: ["","", "", "","","Bearer 549ecc24ff3122ffecce13e1b9ecb9fc58fd151dea9ef818e86d8fead3e21a69"]
+      timeout: 40
+
+    cars:
+      network: "Cars network"
+      networkslug: "cars"
+      base_url: "https://ch-candidate-cars.mo.sap.corp"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["jeremyclarkson@topgear.com", "letmein", "jeremy","Jeremy Clarkson","registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["jeremyclarkson@topgear.com", "letmein", "jeremy","Jeremy Clarkson","registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+      timeout: 10
+
+    apitest:
+      network: "apitest"
+      networkslug: "apitest"
+      base_url: "https://ch-candidate-apitest.mo.sap.corp"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 30
+
+    b2c:
+      network: "b2c (watir run for hybris b2c Integration)"
+      networkslug: "b2c"
+      base_url: "https://ch-candidate-b2c.mo.sap.corp"
+      hybris_url: "https://electronics-b2c.mo.sap.corp:9002/yacceleratorstorefront"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      timeout: 30
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "https://ch-candidate-nike.mo.sap.corp"
+      hybris_url: "https://electronics-candidate.mo.sap.corp:9002/yacceleratorstorefront/"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      login_type: "viral"
+      domain: "watir.com"
+      timeout: 20
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+#            network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        nf_network_admin: ["watirnfadmin@watir.com", "password", "watirnfadmin","nfAdmin Watir","registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_moderator: ["watirnfmod@watir.com", "password", "watirnfmod", "nfModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+
+    yaas:
+      network: "Cars network"
+      networkslug: "yaas"
+      base_url: "https://ch-candidate-yaas.mo.sap.corp"
+      yaas_url: "http://cameras-yaasstorefront.mo.sap.corp:9000/"
+      users:
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      timeout: 30
+
+    hybris:
+      network: "b2b (watir run for hybris b2b Integration)"
+      networkslug: "hybris"
+      base_url: "https://ch-candidate-hybris.mo.sap.corp"
+      hybris_url: "https://powertools-candidate.mo.sap.corp:9002/yb2bacceleratorstorefront"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      login_type: "viral"
+      timeout: 20
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["william.hunter@pronto-hw.com", "password", "","", ""]
+        hybris_user2: ["anil.gupta@pronto-hw.com", "password", "","", ""]
+        hybris_tmp: ["gi.sun@pronto-hw.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+
+    watirtest:
+      network: "Nike Community"
+      networkslug: "watirtest"
+      base_url: "https://ch-candidate-watirtest.mo.sap.corp"
+      mail_catcher_url: "http://ch-candidate-mail.mo.sap.corp:1080/"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmoderator@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        regular_user7: ["watiruser7@watir.com", "password", "watir7", "Watir User7", "registered"]
+        regular_user8: ["watiruser8@watir.com", "password", "watir8", "Watir User8", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 30
+
+    watirtest-mod1:
+      network: "WatirTest Mod1 Community"
+      networkslug: "watirtest-mod1"
+      base_url: "https://ch-candidate-watirtest-mod1.mo.sap.corp"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+      timeout: 30
+
+    watirtest-mod2:
+      network: "WatirTest Mod2 Community"
+      networkslug: "watirtest-mod2"
+      base_url: "https://ch-candidate-watirtest-mod2.mo.sap.corp"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+      timeout: 30
+
+    watirtest-mod3:
+      network: "WatirTest Mod3 Community"
+      networkslug: "watirtest-mod1"
+      base_url: "https://ch-candidate-watirtest-mod3.mo.sap.corp"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+      timeout: 30
+  
+    watirtest1:
+      network: "WatirTest1 Community"
+      networkslug: "watirtest1"
+      base_url: "https://ch-candidate-watirtest1.mo.sap.corp"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Blogger Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "User6 Watir", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      timeout: 30
+
+    watirtest2:
+      network: "WatirTest2 Community"
+      networkslug: "watirtest2"
+      base_url: "https://ch-candidate-watirtest2.mo.sap.corp"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Blogger Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "User6 Watir", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      timeout: 30  
+    
+    betaoff:
+      network: "Always Beta Off Community"
+      networkslug: "betaoff"
+      base_url: "https://ch-candidate-betaoff.mo.sap.corp"
+      superadmin_url: "https://ch-candidate-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 30
+
+  sles12:
+    food:
+      network: "Food Network"
+      networkslug: "food"
+      base_url: "https://sles-food.mo.sap.corp"
+      superadmin_url: "https://sles-system.mo.sap.corp/super/auth/sign_in"
+      hybris_url: "https://electronics-b2c.mo.sap.corp:9002/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Foodwatir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Foodwatir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Foodwatir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Foodwatir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Foodwatir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Foodwatir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Foodwatir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Foodwatir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Foodwatir User4", "registered"]
+        nf_network_admin: ["watirnfadmin@watir.com", "password", "watirnfadmin","nfAdmin Watir","registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_moderator: ["watirnfmod@watir.com", "password", "watirnfmod", "nfModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", " superseed", "Watir SuperAdmin", "registered"]
+        oauth: ["","", "", "","","Bearer 549ecc24ff3122ffecce13e1b9ecb9fc58fd151dea9ef818e86d8fead3e21a69"]
+      timeout: 40
+  stagewatir:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "http://ch-watir-nike.mo.sap.corp"
+      superadmin_url: "http://ch-watir-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "http://ch-watir-food.mo.sap.corp"
+      superadmin_url: "http://ch-watir-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+  stable:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "http://ch-stable-nike.mo.sap.corp"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "http://ch-stable-food.mo.sap.corp"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+  integration:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "https://ch-latest-nike.mo.sap.corp"
+      hybris_url: "https://electronics-latest.mo.sap.corp:9002/yacceleratorstorefront"
+      superadmin_url: "http://ch-latest-system.mo.sap.corp/super/auth/sign_in"
+      mail_catcher_url: "http://ch-latest-mail.mo.sap.corp:1080/"
+      login_type: "viral"
+      domain: "watir.com"
+      timeout: 20
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmoderator@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      beta_feature_enabled: ["fs_events"]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1934793"
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "https://ch-latest-food.mo.sap.corp"
+      hybris_url: "https://electronics-candidate.mo.sap.corp:9002/yacceleratorstorefront"
+      superadmin_url: "http://ch-latest-system.mo.sap.corp/super/auth/sign_in"
+      mail_catcher_url: "http://ch-latest-mail.mo.sap.corp:1080/"
+      login_type: "viral"
+      domain: "watir.com"
+      timeout: 10
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+
+  poc1:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "http://ch-poc1-nike.mo.sap.corp"
+      superadmin_url: "http://ch-poc1-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      timeout: 20
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "http://ch-poc1-food.mo.sap.corp"
+      superadmin_url: "http://ch-poc1-system.mo.sap.corp/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 10
+
+
+  saasqa:
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "https://nike-communities.lab-rot.ondemand.com"
+      hybris_url: "https://hybris-saas-qa1.itc.sap.com/yacceleratorstorefront"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@yahoo.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@yahoo.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["austinwang.sap@gmail.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["sotericwong@gmail.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["austin.wang@sap.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@yahoo.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "password", "watirblog1", "Watir Blogger", "registered"]
+        regular_user1: ["watiruser1@yahoo.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@yahoo.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["austinwang.sap@gmail.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["sotericwong@gmail.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnfadmin@watir.com", "password", "watirnfadmin","nfAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnfmod@watir.com", "password", "watirnfmod", "nfModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      timeout: 40
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+      beta_feature_enabled: ["fs_ideas", "fs_topcontri"]
+
+    food:
+      network: "Food network"
+      networkslug: "food"
+      base_url: "http://ch-europe-food.mo.sap.corp:1080"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatir2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 40
+
+    cars:
+      network: "Cars network"
+      network_slug: "cars"
+      base_url: https://cars-communities.lab-rot.ondemand.com
+      hybris_url: "https://hybris-saas-qa2.itc.sap.com/yb2bacceleratorstorefront/"
+      superadmin_url: "https://cars-communities.lab-rot.ondemand.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["austin.wang@sap.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@yahoo.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@yahoo.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["austinwang.sap@gmail.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["sotericwong@gmail.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+      timeout: 40
+    
+    camera:
+      network: "Cameras Network"
+      networkslug: "cameras"
+      base_url: "https://cameras-communities.lab-rot.ondemand.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30 
+
+    watir1:
+      network: "Watir1 Community"
+      networkslug: "watir1"
+      base_url: "https://watir1-communities.lab-rot.ondemand.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30  
+    
+    watir2:
+      network: "Watir2 Community"
+      networkslug: "watir2"
+      base_url: "https://watir2-communities.lab-rot.ondemand.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30  
+
+    watir3:
+      network: "Watir3 Community"
+      networkslug: "watir3"
+      base_url: "https://watir3-communities.lab-rot.ondemand.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watiruser6@watir.com", "password", "watir6", "User6 Watir", "registered"]
+        regular_user7: ["watiruser7@watir.com", "password", "watir7", "User7 Watir", "registered"]
+        regular_user8: ["watiruser8@watir.com", "password", "watir8", "User8 Watir", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+      timeout: 30 
+  
+  salesdemo:
+    sports:
+      network: "Sports Community"
+      networkslug: "sports"
+      base_url: https://sports.community-demo.sapjam.com 
+      hybris_url: "https://chicago-demo-testb2c.itc.sap.com/yacceleratorstorefront/"
+      superadmin_url: "https://system.community-demo.sapjam.com/super/auth/sign_in"
+      mail_catcher_url: "http://chicago-demo-mail.itc.sap.com/"
+      mail_catcher_url_with_credit: "http://mailcatcher:Mayicatch%3F@chicago-demo-mail.itc.sap.com/"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmoderator@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@watir.com", "P@ssw0rd", "watirblog1", "Blogger1 Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        regular_user6: ["watiruser6@watir.com", "P@ssw0rd", "watir6", "Watir User6", "registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@watir.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@watir.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+      timeout: 40
+
+    food:
+      network: "Food Network"
+      networkslug: "food"
+      base_url: "https://food.community-demo.sapjam.com"
+      hybris_url: "https://chicago-demo-testb2b.itc.sap.com/yb2bacceleratorstorefront/"
+      superadmin_url: "https://system.community-demo.sapjam.com/super/auth/sign_in"
+      mail_catcher_url: "http://chicago-demo-mail.itc.sap.com/"
+      login_type: "viral"
+      user1: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["foodwatiruser2@watir.com", "password", "foodwatiruser2", "Foodwatir User2", "registered"]
+      user5: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["foodwatiradmin@watir.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["foodwatirmod@watir.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["foodwatiruser1@watir.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["foodwatiruser2@watir.com", "password", "foodwatiruser2", "Foodwatir User2", "registered"]
+        regular_user3: ["foodwatiruser3@watir.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["foodwatiruser4@watir.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      timeout: 40
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+  
+    watirtest:
+      network: "watirtest"
+      networkslug: "watirtest"
+      base_url: "https://watirtest.community-demo.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+    watirtest1:
+      network: "watirtest1"
+      networkslug: "watirtest1"
+      base_url: "https://watirtest1.community-demo.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+    watirtest2:
+      network: "watirtest2"
+      networkslug: "watirtest2"
+      base_url: "https://watirtest2.community-demo.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+      
+    watirtest3:
+      network: "watirtest3"
+      networkslug: "watirtest3"
+      base_url: "https://watirtest3.community-demo.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30     
+
+  dc17prod:
+    acecorp:
+      network: "acecorp"
+      networkslug: "acecorp"
+      base_url: https://acecorp.communities17.sapjam.com 
+      hybris_url: "https://hybris17-cameras.itc.sap.com/yacceleratorstorefront"
+      superadmin_url: "https://system.communities17.sapjam.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["dc17comwatir+watiradmin@gmail.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["dc17comwatir+watirmod@gmail.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["dc17comwatir+watir1@gmail.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["dc17comwatir+watir2@gmail.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["dc17comwatir+watir3@gmail.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["dc17comwatir+watir4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["dc17comwatir+watiradminonly@gmail.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["dc17comwatir+watiradmin@gmail.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["dc17comwatir+watirmod@gmail.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@126.com", "P@ssw0rd", "watirblog1", "Blogger1 Watir", "registered"]
+        regular_user1: ["dc17comwatir+watir1@gmail.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["dc17comwatir+watir2@gmail.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["dc17comwatir+watir3@gmail.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["dc17comwatir+watiruser4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watir5@126.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watir6@126.com", "P@ssw0rd", "watir6", "User6 Watir", "registered"]
+        nf_regular_user1: ["watirnf1@126.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnf2@126.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@126.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@126.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["dc17comwatir+watiradminonly@gmail.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      beta_feature_enabled: ["fs_ideas", "fs_topcontri"]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+      timeout: 40
+
+    food:
+      network: "Food Network"
+      networkslug: "food"
+      base_url: https://food.communities17.sapjam.com
+      superadmin_url: "https://system.communities17.sapjam.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["dc17comwatir+foodwatiradmin@gmail.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+      user2: ["dc17comwatir+foodwatirmod@gmail.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+      user3: ["dc17comwatir+foodwatiruser1@gmail.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+      user4: ["dc17comwatir+foodwatiruser2@gmail.com", "password", "foodwatiruser2", "Foodwatir User2", "registered"]
+      user5: ["dc17comwatir+foodwatiruser3@gmail.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+      user12: ["dc17comwatir+foodwatiruser4@gmail.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["dc17comwatir+foodwatiradmin@gmail.com", "password", "foodwatiradmin","Foodwatir Admin", "registered"]
+        network_moderator: ["dc17comwatir+foodwatirmod@gmail.com", "password", "foodwatirmod", "Foodwatir Moderator", "registered"]
+        regular_user1: ["dc17comwatir+foodwatiruser1@gmail.com", "password", "foodwatir1", "Foodwatir User1", "registered"]
+        regular_user2: ["dc17comwatir+foodwatiruser2@gmail.com", "password", "foodwatiruser2", "Foodwatir User2", "registered"]
+        regular_user3: ["dc17comwatir+foodwatiruser3@gmail.com", "password", "foodwatir3", "Foodwatir User3", "registered"]
+        regular_user4: ["dc17comwatir+foodwatiruser4@gmail.com", "password", "foodwatir4", "Foodwatir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      timeout: 20
+    
+    watirtest1:
+      network: "WatirTest1 Community"
+      networkslug: "watirtest1"
+      base_url: "https://watirtest1.communities17.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+    
+    watirtest2:
+      network: "WatirTest2 Community"
+      networkslug: "watirtest2"
+      base_url: "https://watirtest2.communities17.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+    watirtest3:
+      network: "WatirTest3 Community"
+      networkslug: "watirtest3"
+      base_url: "https://watirtest3.communities17.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+  dc12prod:
+    acecorp:
+      network: "acecorp"
+      networkslug: "acecorp"
+      base_url: https://acecorp.communities12.sapjam.com 
+      hybris_url: "https://hybris12-cameras.itc.sap.com/yacceleratorstorefront/"
+      superadmin_url: "https://system.communities12.sapjam.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["dc12comwatir+watiradmin@gmail.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["dc12comwatir+watirmod@gmail.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["dc12comwatir+watir1@gmail.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["dc12comwatir+watir2@gmail.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["dc12comwatir+watir3@gmail.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["dc12comwatir+watir4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["dc12comwatir+watiradminonly@gmail.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["dc12comwatir+watiradmin@gmail.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["dc12comwatir+watirmod@gmail.com", "password", "watirmod", "Watir Moderator", "registered"]
+        network_blogger1: ["watirblog1@126.com", "P@ssw0rd", "watirblog1", "Blogger1 Watir", "registered"]
+        regular_user1: ["dc12comwatir+watir1@gmail.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["dc12comwatir+watir2@gmail.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["dc12comwatir+watir3@gmail.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["dc12comwatir+watir4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watir5@126.com", "password", "watir5", "User5 Watir", "registered"]
+        regular_user6: ["watir6@126.com", "P@ssw0rd", "watir6", "User6 Watir", "registered"]
+        nf_regular_user1: ["watirnf1@126.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnf2@126.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_blogger: ["watirnfblog@watir.com", "password", "watirnfblog", "nfBlogger Watir", "registered"]
+        nf_topic_admin: ["watirnftopicadmin@126.com", "PlsLetMeIn1", "watirnftopicadmin","nfTopicAdmin Watir","registered"]
+        nf_topic_moderator: ["watirnftopicmod@126.com", "PlsLetMeIn1", "watirnftopicmod", "nfTopicModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["dc12comwatir+watiradminonly@gmail.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      timeout: 40
+      beta_feature_enabled: ["fs_ideas", "fs_topcontri"]
+
+    nike:
+      network: "Nike Community"
+      networkslug: "nike"
+      base_url: "https://nike.communities12.sapjam.com"
+      hybris_url: "https://hybris12-cameras.itc.sap.com/yacceleratorstorefront/"
+      superadmin_url: "https://system.communities12.sapjam.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["dc12comwatir+watiradmin@gmail.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["dc12comwatir+watirmod@gmail.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["dc12comwatir+watir1@gmail.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["dc12comwatir+watir2@gmail.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["dc12comwatir+watir3@gmail.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["dc12comwatir+watir4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["dc12comwatir+watiradminonly@gmail.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmoderator@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["dc12comwatir+watir4@gmail.com", "password", "watir4", "Watir User4", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        nf_network_admin: ["watirnfadmin@watir.com", "password", "watirnfadmin","nfAdmin Watir","registered"]
+        nf_regular_user1: ["watirnfuser1@watir.com", "password", "watirnf1", "nfUser1 Watir", "registered"]
+        nf_regular_user2: ["watirnfuser2@watir.com", "password", "watirnf2", "nfUser2 Watir", "registered"]
+        nf_network_moderator: ["watirnfmod@watir.com", "password", "watirnfmod", "nfModerator Watir", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"
+      timeout: 40
+
+    food:
+      network: "Food Network"
+      networkslug: "food"
+      base_url: https://food.communitiestest12.sapjam.com
+      hybris_url: "https://hybris12-cameras.itc.sap.com/yacceleratorstorefront/"
+      superadmin_url: "https://system.communities12.sapjam.com/super/auth/sign_in"
+      login_type: "viral"
+      user1: ["dc12comwatir+watiradmin@gmail.com", "password", "foodwatiradmin","Admin Foodwatir", "registered"]
+      user2: ["dc12comwatir+watirmod@gmail.com", "password", "foodwatirmod", "Moderator Foodwatir", "registered"]
+      user3: ["dc12comwatir+watir1@gmail.com", "password", "foodwatir1", "User1 Foodwatir", "registered"]
+      user4: ["dc12comwatir+watir2@gmail.com", "password", "foodwatir2", "User2 Foodwatir", "registered"]
+      user5: ["dc12comwatir+watir3@gmail.com", "password", "foodwatir3", "User3 Foodwatir", "registered"]
+      user12: ["dc12comwatir+watir4@gmail.com", "password", "foodwatir4", "User4 Foodwatir", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["dc12comwatir+watiradminonly@gmail.com", "password", "foodwatiradminonly","Adminonly Foodwatir", "registered"]
+      user11: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      users:
+        network_admin: ["dc12comwatir+watiradmin@gmail.com", "password", "foodwatiradmin","Admin Foodwatir", "registered"]
+        network_moderator: ["dc12comwatir+watirmod@gmail.com", "password", "foodwatirmod", "Moderator Foodwatir", "registered"]
+        regular_user1: ["dc12comwatir+watir1@gmail.com", "password", "foodwatir1", "User1 Foodwatir", "registered"]
+        regular_user2: ["dc12comwatir+watir2@gmail.com", "password", "foodwatir2", "User2 Foodwatir", "registered"]
+        regular_user3: ["dc12comwatir+watir3@gmail.com", "password", "foodwatir3", "User3 Foodwatir", "registered"]
+        regular_user4: ["dc12comwatir+watir4@gmail.com", "password", "foodwatir4", "User4 Foodwatir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "Watir User5", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["dc12comwatir+watiradminonly@gmail.com", "password", "foodwatiradminonly","Adminonly Foodwatir", "registered"]
+        superadmin_user: ["superseed@sap.com", "admins have strong passwords", "superprod", "SuperAdmin", "registered"]
+      timeout: 40
+    
+    watirtest1:
+      network: "WatirTest1 Community"
+      networkslug: "watirtest1"
+      base_url: "https://watirtest1.communities12.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+    watirtest2:
+      network: "WatirTest2 Community"
+      networkslug: "watirtest2"
+      base_url: "https://watirtest2.communities12.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+
+    watirtest3:
+      network: "WatirTest3 Community"
+      networkslug: "watirtest3"
+      base_url: "https://watirtest3.communities12.sapjam.com"
+      login_type: "viral"
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Admin Watir", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Moderator Watir", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "User1 Watir", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "User2 Watir", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "User3 Watir", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "User4 Watir", "registered"]
+        regular_user5: ["watiruser5@watir.com", "password", "watir5", "User5 Watir", "registered"]
+      timeout: 30
+  cc:
+    nike:
+      network: "nike"
+      networkslug: "nike"
+      base_url: "https://cc-nike.mo.sap.corp"
+      hybris_url: "https://electronics-cc.mo.sap.corp:9002/yacceleratorstorefront"
+      superadmin_url: "https://cc-system.mo.sap.corp/super/auth/sign_in"
+      #mail_catcher_url: "http://ch-candidate-db.mo.sap.corp:1080/"
+      login_type: "viral"
+      user1: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+      user2: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+      user3: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+      user4: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+      user5: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+      user12: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+      user6: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+      user7: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+      user8: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+      user9: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+      user10: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+      user11: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+      domain: "watir.com"
+      timeout: 20
+      users:
+        network_admin: ["watiradmin@watir.com", "password", "watiradmin","Watir Admin", "registered"]
+        network_moderator: ["watirmod@watir.com", "password", "watirmod", "Watir Moderator", "registered"]
+        regular_user1: ["watiruser1@watir.com", "password", "watir1", "Watir User1", "registered"]
+        regular_user2: ["watiruser2@watir.com", "password", "watir2", "Watir User2", "registered"]
+        regular_user3: ["watiruser3@watir.com", "password", "watir3", "Watir User3", "registered"]
+        regular_user4: ["watiruser4@watir.com", "password", "watir4", "Watir User4", "registered"]
+        social_facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "watirfb", " watir socialfb", "facebook"]
+        social_linkedin_user: ["watirsociallink@gmail.com", "PlsLetMeIn", "watirlinkedin", "watir sociallink", "linkedin"]
+        social_google_user: ["watirsocial@gmail.com", "plsletmein", "watirgoogle", "watir social", "google+"]
+        social_twitter_user: ["watirsocialtwi@gmail.com", "PlsLetMeIn", "watirtwi", "watir socialtwi", "twitter"]
+        network_admin2: ["watiradminonly@watir.com", "password", "watiradminonly","Watir Adminonly", "registered"]
+        superadmin_user: ["superseed@sap.com ", "admins have strong passwords", "superseed", "SuperAdmin", "registered"]
+        hybris_user1: ["watiruser1@watir.com", "password", "","", ""]
+        hybris_user2: ["watiruser2@watir.com", "password", "","", ""]
+        hybris_tmp: ["watirusertemp@watir.com", "password", "","", ""]
+        facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn", "","", ""]
+        linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn", "","", ""]
+        twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn", "","", ""]
+        google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn", "","", ""]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440_green"

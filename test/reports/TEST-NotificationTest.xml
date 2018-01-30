@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NotificationTest" skipped="0" failures="0" errors="0" tests="1" assertions="4" time="113.432342">
+  <testcase name="test_00340_check_reply_to_reply_parent_notification" classname="NotificationTest" assertions="4" time="113.432342">
+  </testcase>
+</testsuite>

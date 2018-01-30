@@ -1,0 +1,221 @@
+# server config settings:
+config:
+  browser: "chrome"
+  #browser: "firefox"
+  #instance: "local"
+  instance: "integration"
+  timeout: 10
+
+social_account:
+  facebook_user: ["watirsocialfb@gmail.com", "PlsLetMeIn"]
+  linkedin_user: ["watirhybrisli@gmail.com", "PlsLetMeIn"]
+  twitter_user: ["watirshanghaitw@gmail.com", "PlsLetMeIn"]
+  google_user: ["watirhybrisgp@gmail.com", "PlsLetMeIn"]
+# server env config
+env:
+  local:
+    electronics:
+      base_url: "https://electronics.local:9002/yacceleratorstorefront/"
+      community_base_url: "https://nikelocal:3001/"
+      network_slug: "nike"
+      site: "electronics"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watiruser1@watir.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watiruser2@watir.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "1322041"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 10
+    #apparel-uk:
+  latest:    
+    electronics:
+      base_url: "https://electronics-latest.mo.sap.corp:9002/yacceleratorstorefront/"
+      community_base_url: "http://ch-latest-nike.mo.sap.corp/"
+      network_slug: "nike"
+      site: "electronics"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watiruser1@watir.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watiruser2@watir.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+    powertools:
+      base_url: "https://powertools-latest.mo.sap.corp:9002/yb2bacceleratorstorefront/"
+      community_base_url: "https://ch-latest-b2b.mo.sap.corp/"
+      site: "powertools"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["william.hunter@pronto-hw.com", "password"]
+        communityuser: ["jeremyclarkson@topgear.com", "letmein"]
+      user2:
+        hybrisuser: ["anil.gupta@pronto-hw.com", "password"]
+        communityuser: ["richardhammond@topgear.com", "letmein"]
+      user_temp:
+        hybrisuser: ["gi.sun@pronto-hw.com", "password"]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+      timeout: 60
+  stage:    
+    electronics:
+      base_url: "https://electronics-b2c.mo.sap.corp:9002/yacceleratorstorefront/"
+      community_base_url: "https://ch-candidate-b2c.mo.sap.corp/"
+      site: "electronics"
+      network_slug: "b2c"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watiruser1@watir.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watiruser2@watir.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+    powertools:
+      base_url: "https://powertools-candidate.mo.sap.corp:9002/yb2bacceleratorstorefront/"
+      community_base_url: "https://ch-candidate-hybris.mo.sap.corp/"
+      site: "powertools"
+      network_slug: "hybris"
+      adminuser: ["foodwatiradmin", "password"]
+      user1:
+        hybrisuser: ["william.hunter@pronto-hw.com", "password"]
+        communityuser: ["foodwatir1", "password"]
+      user2:
+        hybrisuser: ["anil.gupta@pronto-hw.com", "password"]
+        communityuser: ["foodwatir2", "password"]
+      user_temp:
+        hybrisuser: ["gi.sun@pronto-hw.com", "password"]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+      timeout: 60
+  saasqa:
+    electronics:
+      base_url: "https://hybris-saas-qa1.itc.sap.com/yacceleratorstorefront/"
+      community_base_url: "https://nike-communities.lab-rot.ondemand.com/"
+      site: "electronics"
+      network_slug: "nike"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watiruser1@watir.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watiruser2@watir.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+    powertools:
+      base_url: "https://hybris-saas-qa2.itc.sap.com/yb2bacceleratorstorefront/"
+      community_base_url: "https://cars-communities.lab-rot.ondemand.com/"
+      site: "powertools"
+      network_slug: "cars"
+      adminuser: ["jeremy", "letmein"]
+      user1:
+        hybrisuser: ["william.hunter@pronto-hw.com", "password"]
+        communityuser: ["jeremyclarkson@topgear.com", "letmein"]
+      user2:
+        hybrisuser: ["anil.gupta@pronto-hw.com", "password"]
+        communityuser: ["richardhammond@topgear.com", "letmein"]
+      user_temp:
+        hybrisuser: ["gi.sun@pronto-hw.com", "password"]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+      timeout: 60
+  demo:
+    electronics:
+      base_url: "https://chicago-demo-testb2c.itc.sap.com/yacceleratorstorefront/"
+      community_base_url: "https://sports.community-demo.sapjam.com/"
+      site: "electronics"
+      network_slug: "sports"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watiruser1@watir.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watiruser2@watir.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+    powertools:
+      base_url: "https://chicago-demo-testb2b.itc.sap.com/yb2bacceleratorstorefront/"
+      community_base_url: "https://food.community-demo.sapjam.com/"
+      site: "powertools"
+      network_slug: "food"
+      adminuser: ["foodwatiradmin", "password"]
+      user1:
+        hybrisuser: ["william.hunter@pronto-hw.com", "password"]
+        communityuser: ["foodwatir1", "password"]
+      user2:
+        hybrisuser: ["anil.gupta@pronto-hw.com", "password"]
+        communityuser: ["foodwatiruser2", "password"]
+      user_temp:
+        hybrisuser: ["gi.sun@pronto-hw.com", "password"]
+      product_id_blank: "693923"
+      product_id_many: "3755205"
+      product_id_write: "3793682"
+      timeout: 60
+  dc17:
+    electronics:
+      base_url: "https://hybris17-cameras.itc.sap.com/yacceleratorstorefront/"
+      community_base_url: "https://acecorp.communities17.sapjam.com/"
+      site: "electronics"
+      network_slug: "acecorp"
+      adminuser: ["watiradmin", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["dc17comwatir+watir1@gmail.com", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["dc17comwatir+watir2@gmail.com", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+  dc12:
+    electronics:
+      base_url: "https://hybris12-cameras.itc.sap.com/yacceleratorstorefront/"
+      community_base_url: "https://nike.communities12.sapjam.com/"
+      site: "electronics"
+      network_slug: "nike"
+      adminuser: ["awang", "password"]
+      user1:
+        hybrisuser: ["watiruser1@watir.com", "password"]
+        communityuser: ["watir1", "password"]
+      user2:
+        hybrisuser: ["watiruser2@watir.com", "password"]
+        communityuser: ["watir2", "password"]
+      user_temp:
+        hybrisuser: ["watirusertemp@watir.com", "password"]
+      product_id_blank: "824267"
+      product_id_many: "1934793"
+      product_id_write: "1978440"
+      timeout: 60
+

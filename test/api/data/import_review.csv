@@ -1,0 +1,5 @@
+product_code,created_at,review_content,title,rate,recommended,user_name,email,review_id,parent_review_id
+1934793,16/1/10 10:30,[Replied]: I have one. It is easy to use,Yes! it is veray easy to use,5,1,ricky.jiao,ricky.jiao@sap.com,uuid2,uuid1
+1934793,16/1/10 10:30,I want to buy a new camera recently. I want to know whether this one is easy to use or not.,Is this product easy to use?,4,1,user2,user2@sap.com,uuid1,
+1934793,16/1/10 10:30,Buying a video camera can be a huge investment,Buying a video camera can be a huge investment,2,1,user2,user2@sap.com,uuid3,
+1934793,16/1/10 10:30,[Replied]: It is a wonderful product,I agree with you,3,1,ricky.jiao,ricky.jiao@sap.com,uuid4,uuid3
